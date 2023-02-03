@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+input,textarea {
+
+    border: 3px solid rgb(44, 44, 112);
+    border-radius: 8px;
+    width: 100%;
+}
+
+button {
+    border: 3px solid rgb(44, 44, 112);
+    background-color: rgb(44, 44, 112);
+    border-radius: 8px;
+    font-size: 20px;
+    color: beige;
+     /* paddding  ve width ayarlari eklenecek*/
+}
+
+.header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid rgb(95, 95, 185) ;
+    background-color: rgb(147, 147, 194);
+    border-radius: 15px;
+    /* paddding  ve width ayarlari eklenecek*/
+}
+
+.header .title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.content .about {
+    display: flex;
+    align-items: center;
+    width: 85%;
+    padding: 40px;
+    margin: 40px;
+    gap: 30px;
+}
+.content .about img {
+    width: 500px;
+    height: 500px;
+    border: 5px solid  rgb(147, 147, 194);
+    border-radius: 250px;
+    margin-left: 150px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.section {
+    width: 60%;
+
+}
+
+.section .card {
+    display: flex;
+    border: 3px solid  rgb(147, 147, 194);
+    border-radius: 30px;
+    padding: 40px;
+    margin: 40px;
+    box-shadow: 5px 5px 10px gray;
+    background-color: aqua;
+
+}
+
+.section .card .left {
+    flex: 2;
+}
+.section .card .right {
+    flex: 1;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    border-top: 3px dotted gray;
+}

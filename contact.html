@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Canim Kendim</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <div class="header">
@@ -17,19 +18,60 @@
        <a href="resume.html"> Resume</a> | 
         <a href="contact.html">Contact</a></div>
     </div>
-    <div class="content"></div>
+    <div class="content">
+      <h1>Contact</h1>
+      <div class="section"></div>
+      <div class="card"></div>
+      <div class="left"></div>
+      <form action="saveToDB.aspx">
+        <div class="form-row">
+          <div>
+            <label for="firstname">Firstname</label>
+          </div>
+          <input type="text" name="firstname" id="firstname">
+        </div>
+
+        <div class="form-row">
+          <div>
+            <label for="lastname">Lastname</label>
+          </div>
+          <input type="text" name="lastname" id="lastname">
+        </div>
+
+        <div class="form-row">
+          <div>
+            <label for="email">E-mail</label>
+          </div>
+          <input type="text" name="email" id="email">
+        </div>
+
+        <div class="form-row">
+          <div>
+            <label for="message">Message</label>
+          </div>
+         <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit">SEND</button>
+
+      </form>
+      
+
+
+    </div>
     <div class="footer">
       <div>
         <h3>Telefon</h3>
-        <p>+49123456789</p>
+       <a href="tel:+90344654321">Call me</a>
       </div>
       <div>
         <h3>Email</h3>
-        <p>ayaz@gmail.com</p>
+       <a href="mailto: ayaz@gmail.com">Mail me</a>
       </div>
       <div>
         <h3>Sosyal Medya</h3>
-        <p>Twitter | Facebook | Linkedin</p>
+        <a href="https://www.twitter.com" target="_blank">Twitter</a>|
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>|
+        <a href="https://www.linkedin.com" target="_blank">Linkedin</a>
       </div>
       <div>
         <h3>CopyRight</h3>
